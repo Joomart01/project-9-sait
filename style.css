@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.square{
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.item{
+    font-family: poppins sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 13px 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    padding: 9px 15px;
+    font-family: poppins sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold ;
+    color: #131111;
+    opacity:.7 ;
+}
+.nav:hover{
+    opacity:2;
+}
+.btn{
+    margin-left: 30px;
+    font-family: poppins sans-serif;
+    width: 96px;
+    height: 38px;
+    background: black;
+    border-radius: 8px;
+    color: white;
+    border: 5px solid red;
+}
+.btn:hover{
+    background: red;
+    color: chartreuse;
+    border: 5px solid black;
+}
+.item--title{
+    margin-left: 270px;
+    display: flex;
+    align-items: center;
+}
+/*.................................................*/
+#one{
+    margin-top: 20px;
+    background: linear-gradient(#130f0f 40%, #251901 60%);
+}
+.title-1{
+    color: white;
+    padding-top:4cm;
+    padding-left: 1cm;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.title-text{
+    font-family: poppins sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height:50px ;
+}
+.p{
+    background: #fcf009;
+    color: black;
+}
+.text{
+    padding-top: 35px;
+    font-style: normal;
+    font-size: 17px ;
+}
+.border{
+    padding-top: 45px;
+}
+.border-text{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    padding-top: 45px;
+}
+.img-V{
+    width: 35px;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    padding-top: 45px;
+}
+.log{
+    width: 125px;
+    height: 60px;
+    border-radius: 15px;
+    background: white;
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.foto{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+/*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+
+.iphone{
+    background: url("./img/Gelembung.png") no-repeat center/cover;
+    width: 420px;
+    height: 535px;
+}
+.iphon2{
+    width: 330px;
+    height: 530px;
+}
+/*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+.block{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.item-img{
+    width: 470px;
+    height: 330px;
+    border: 10px solid #fcf009;
+}
+.img-colleg{
+    padding-top: 30px;
+    margin-left: 20px;
+    height: 500px;
+}
+.title1-t{
+    width: 500px;
+    padding-top: 60px;
+}
+.text{
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*,,,,,,,,,,,,vcnbfgbnbvn,,,,,,,,,,,,,,...............*/
+
+
+#three{
+    padding-top: 150px;
+}
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+.title-text2{
+    font-family: poppins sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height:50px;
+    margin-top: 70px;
+
+}
+.title-2{
+
+}
+.list{
+    display:flex;
+}
+.text5{
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.tex-img{
+    padding: 20px;
+}
+.list-row{
+    padding: 20px;
+    width: 400px;
+}
+.fot-img{
+    height: 620px;
+}
+/*,............................................*/
+
+.img-img1{
+    width: 650px;
+}
+.title-row{
+    margin-left: 40px;
+}
+
+.item-row{
+    display: flex;
+    justify-content: space-between;
+}
+.title-text3{
+    font-family: poppins sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    line-height:50px;
+    padding-bottom: 30px;
+}
+.text6{
+    padding-bottom: 30px;
+}
+.check1{
+    padding-top: 20px;
+}
+/*...................................*/
+.peaple{
+    text-align: center;
+    line-height: 35px;
+}
+.container-1{
+    width: 980px;
+    margin-left: 100px;
+}
+.block-peap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.title10{
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+/*..................................*/
+.block-six{
+    text-align: center;
+    padding: 100px;
+
+
+}
+.block-s{
+    display: flex;
+    justify-content: space-between;
+}
+.text-six{
+    width: 550px;
+    height: 40px;
+}
+.img-six{
+    padding: 50px 0 50px 0;
+}
+.title-text-six{
+    padding-top: 50px;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+/*/nnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+.input-block{
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    width: 250px;
+    height: 25px;
+}
+.block-seven{
+    display: flex;
+    padding-top: 100px;
+}
+.title-seven{
+    line-height: 40px;
+
+
+
+}
+.png{
+    margin-left: 40px;
+    width: 350px;
+    height: 350px;
+    background: url("./img/Dot Ornament.svg") no-repeat center/cover;
+}
+.seven-png{
+    margin-top: -80px;
+}
+.png1{
+    margin-top: -50px;
+    margin-left: 400px;
+}
+.title-seven-{
+    font-weight: bold;
+    font-family: poppins sans-serif;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.email{
+    width: 530px;
+    height: 35px;
+}
+.btn-send{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: #130f0f;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/*.............................................*/
+
+#eight{
+    background: black;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.eight{
+    color: white;
+    padding-top: 15px;
+}
+.squar{
+    width: 70px;
+    height: 70px;
+    background: #fdf8f8;
+    border-radius: 50%;
+
+    margin-left: 40px;
+}
+.ite{
+    font-family: poppins sans-serif;
+    font-weight: bold;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 13px;
+}
+.eight-text{
+    color: #fdf8f8;
+}
+.eight-img{
+    display: flex;
+    justify-content: space-between;
+}
+.block-0{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.block-2{
+    line-height: 50px ;
+}
+.block-3{
+    line-height: 50px;
+}
+.block-4{
+    line-height: 35px;
+}
+.end{
+    width:260px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn-end {
+    margin-top: 20px;
+    width: 265px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FDEC57;
+}
+
